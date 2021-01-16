@@ -23,6 +23,6 @@ shiny::runGitHub("PLAITAnonApp", "Wandergarten", subdir = "R")
 
 Note that this is a student project!
 
-For inquiries and feedback, contact: databionics@informatik.uni-marburg.de \s\s
-Project lead: Prof. Ultsch, Dr. rer. nat. MC Thrun, Dr. med. Brendel \s\s
+For inquiries and feedback, contact: databionics@informatik.uni-marburg.de \s
+Project lead: Prof. Ultsch, Dr. rer. nat. MC Thrun, Dr. med. Brendel \s
 Authors and contributors: F. Lerch, J. Schulz-Marner, AC Rathert, C. Kujath 
