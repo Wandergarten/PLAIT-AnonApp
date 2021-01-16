@@ -1,6 +1,14 @@
 # PLAIT-AnonApp
 
+PLAIT: Phenotyping Lymphoma with an Artificial Intelligence Toolbox <br>
+
+This anonymization tool is running locally on your computer. PLAIT servers are not involved in the anonymization process. Please, use this tool - PLAIT does not want nor is PLAIT authorized to process sensitive, personal data! <br>
+
+Requirements: R > 3.6 and various shiny-related packages (see below) <br>
+Recommended: R 4.0.3 and R-Studio 1.33
+
 ```{r}
+# uncomment the following package installation commands, if needed
 # install.packages('digest')
 # install.packages('shiny')
 # install.packages('shinyjs')
@@ -13,13 +21,15 @@ library(shinyFeedback)
 library(shinyFiles)
 library(Rcpp)
 
-list.of.packages <- c("digest", "shiny", "shinyjs", "shinyFeedback", "shinyFiles", "Rcpp", "fs")
-new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
-
-
+# replicate this repository on your local machine
+# anonymization mechanism always runs locally - on your machine!
+# no sensitive data are being uploaded to our servers!
 shiny::runGitHub("PLAITAnonApp", "Wandergarten", subdir = "R")
 ```
+After this, a new window should pop-up: <br>
+
+
+
 
 Note that this is a student project!
 
