@@ -28,7 +28,7 @@ shiny::runGitHub("PLAITAnonApp", "Wandergarten", subdir = "R")
 ```
 After this, a new window should pop-up: <br>
 
-!(alt text) (https://raw.githubusercontent.com/Wandergarten/PLAIT-AnonApp/main/howto/1a.png)
+![alt text](https://raw.githubusercontent.com/Wandergarten/PLAIT-AnonApp/main/howto/1a.png)
 
 
 Note that this is a student project!
