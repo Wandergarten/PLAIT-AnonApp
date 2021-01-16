@@ -21,7 +21,7 @@ library(shinyFeedback)
 library(shinyFiles)
 library(Rcpp)
 
-# replicate this repository on your local machine
+# the following command replicates this repository on your local machine
 # anonymization mechanism always runs locally - on your machine!
 # no sensitive data are being uploaded to our servers!
 shiny::runGitHub("PLAITAnonApp", "Wandergarten", subdir = "R")
