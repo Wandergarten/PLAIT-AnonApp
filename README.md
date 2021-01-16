@@ -1,5 +1,10 @@
 # PLAIT-AnonApp
 
+PLAIT: Phenotyping Lymphoma with an Artificial Intelligence Toolbox <br>
+
+Requirements: R > 3.6 <br>
+Recommended: R 4.0.3 and R-Studio 1.33
+
 ```{r}
 # install.packages('digest')
 # install.packages('shiny')
